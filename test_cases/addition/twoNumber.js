@@ -1,0 +1,14 @@
+module.exports=[
+    {
+        input:[2,10],
+        output:12
+    },
+    {
+        input:[4,6],
+        output:10
+    },
+    {
+        input:[3,10],
+        output:13
+    }
+]

@@ -12,6 +12,8 @@ app.get("/", (req, res) => {
 });
 
 app.post("/compile/java", (req, res) => {
+  let problemName=req.query.problemName
+  console.log(problemName)
   let code = req.body.code;
   console.log(code);
   javaCompiler.compileCode(code, (err, data) => {
